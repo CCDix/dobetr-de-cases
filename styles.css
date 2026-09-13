@@ -97,28 +97,9 @@ a:hover {
 .header {
     background: var(--bg-white);
     color: var(--text-dark);
-    padding: var(--spacing-lg) var(--spacing-lg);
+    padding: var(--spacing-xl) var(--spacing-lg);
     text-align: center;
     border-bottom: 2px solid var(--accent-red);
-    position: relative;
-}
-
-.pace-logo-link {
-    position: absolute;
-    top: var(--spacing-md);
-    left: var(--spacing-md);
-    display: inline-block;
-    transition: transform 0.3s ease;
-}
-
-.pace-logo-link:hover {
-    transform: scale(1.1);
-}
-
-.pace-logo-small {
-    max-width: 120px;
-    height: auto;
-    display: block;
 }
 
 .logo {
