@@ -97,26 +97,28 @@ a:hover {
 .header {
     background: var(--bg-white);
     color: var(--text-dark);
-    padding: var(--spacing-xl) var(--spacing-lg);
+    padding: var(--spacing-lg) var(--spacing-lg);
     text-align: center;
     border-bottom: 2px solid var(--accent-red);
+    position: relative;
 }
 
-.logo-link {
+.pace-logo-link {
+    position: absolute;
+    top: var(--spacing-md);
+    left: var(--spacing-md);
     display: inline-block;
-    margin-bottom: var(--spacing-md);
     transition: transform 0.3s ease;
 }
 
-.logo-link:hover {
-    transform: scale(1.05);
+.pace-logo-link:hover {
+    transform: scale(1.1);
 }
 
-.pace-logo {
-    max-width: 280px;
+.pace-logo-small {
+    max-width: 120px;
     height: auto;
     display: block;
-    margin: 0 auto var(--spacing-lg);
 }
 
 .logo {
