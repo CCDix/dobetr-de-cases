@@ -1,0 +1,24 @@
+# GitHub Pages Configuration for dobetr.de Cases
+
+title: dobetr.de Cases – Mental Performance Assessment 2026
+description: Professional PACE assessment cases for elite sports organizations
+url: https://github.com/CCDix/dobetr-de-cases
+repository: CCDix/dobetr-de-cases
+theme: jekyll-theme-minimal
+
+# Exclude from Jekyll processing
+exclude:
+  - README.md
+  - CNAME
+  - .gitignore
+  - .git
+
+# GitHub Pages Settings
+plugins:
+  - jekyll-seo-tag
+
+# Site Settings
+author: dobetr.de
+email: hello@dobetr.de
+social:
+  website: https://www.dobetr.de
